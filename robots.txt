@@ -1,0 +1,9 @@
+# Explicitly allow Google and other crawlers to access everything
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: *
+Allow: /
