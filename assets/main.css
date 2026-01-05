@@ -12,8 +12,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #111;
-  background-color: #fdfdfd;
+  color: #e0e0e0;
+  background-color: #000000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -70,18 +70,19 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 400;
+  color: #ffffff; }
 
 /**
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #4a9eff;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #6bb3ff; }
   a:hover {
-    color: #111;
+    color: #7bc4ff;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -186,8 +187,8 @@ table {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #4a9eff;
+  border-bottom: 1px solid #333;
   min-height: 55.95px;
   position: relative; }
 
@@ -199,7 +200,7 @@ table {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #ffffff; }
 
 .site-nav {
   float: right;
@@ -209,7 +210,7 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #e0e0e0;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -256,7 +257,7 @@ table {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #333;
   padding: 30px 0; }
 
 .footer-heading {
@@ -270,7 +271,7 @@ table {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #999;
   margin-left: -15px; }
 
 .footer-col {
@@ -325,7 +326,7 @@ table {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #999; }
 
 .post-link {
   display: block;
@@ -532,6 +533,6 @@ table {
  * Professional publication styling
  */
 .post-content a[href$=".pdf"]:hover {
-  background-color: #2a7ae2;
+  background-color: #4a9eff;
   color: white;
   text-decoration: none; }
